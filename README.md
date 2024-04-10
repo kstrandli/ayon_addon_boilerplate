@@ -10,6 +10,9 @@ However, my needs was to develop a method that allowed me integrate studio tools
 Because of this, all ayon-logic has been kept separate where possible, and the addon itself works as a wrapper around a core studio pipeline toolkit.
 
 # How to Use
+In this example, the addon name is "studiotoolkit", and all studio toolkit code has eben developed in the core package named "core".
+The addon name "studiotoolkit" is for Ayon Server logic, where the package name "core" can be named separately.
+"core" will be added to PYTHON_PATH, and will be available as a python package for all other Ayon addons.
 
 ### Rename example addon name
 Rename all relevant classes and name variables to the desired addon name.
